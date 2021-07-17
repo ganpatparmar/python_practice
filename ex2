@@ -1,0 +1,15 @@
+#how to us varialble in this
+cars = 90
+space_in_car =4
+drivers = 31
+passengers = 90
+cars_not_drivens = cars- drivers
+cars_driven = drivers
+carpool_capacity = cars_driven * space_in_car
+average_passangers_per_car = passengers / cars_driven
+print("there are" ,cars ,"cars vailable.")
+print("there are", drivers,"drivers available")
+print("there will be", cars_not_drivens,"empty today")
+print("we can transport", carpool_capacity,"people today")
+print("we have", passengers," to carpool today.")
+print("we need to put about",average_passangers_per_car,"in each car.")
