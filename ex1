@@ -1,0 +1,9 @@
+#LEARNING MATHS
+# + = plus - = minus, * = asterisk, / = slash, % = percentage, > = greater than , < less than >= greater than - equal, <= less han - equal
+print("now i will tell you how many chikens i have",5+3-2)
+print(" now i will tell you how many eggs i have",15%2)
+print(" numbers i got for my first sem",143/5.1)
+print("is right",5>=-1)
+print("is it greater than",5>2)
+print(7.0 / 4.0)
+print(7 / 4)
