@@ -1,0 +1,26 @@
+from sys import argv
+script, filename =  argv
+print("Now we re going to erase the file %s"%filename)
+print("Ifou dont want to do that hit CTRL-C^c")
+print("if you want to open file hit return")
+input("?")
+
+
+print("now we are goingo truncate the file")
+file = open(filename,'w')
+file.truncate()
+print("now we are goint to write some stuff to our file")
+lin1 = input("Line 1 :")
+lin2 = input("Line 2 : ")
+lin3 = input("Line 3 : ")
+file.write(lin1)
+file.write("\n")
+file.write(lin2)
+file.write("\n")
+file.write(lin3)
+file.write("\n")
+print("File after update from your side is")
+file = open(filename)
+print(file.read())
+print("now we are closing a file GoodBye!!!!!")
+file.close()
